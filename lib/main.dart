@@ -18,7 +18,7 @@ void main() async {
   await Firebase.initializeApp();
   runApp(MaterialApp(
     title: "Minhas Viagens",
-    home: Home(),
+    home: SplashScreen(),
     debugShowCheckedModeBanner: false,
   ));
 }
